@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vField.co.uk</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+  </head>
+  <body style="margin: 0; font-variant: small-caps;-webkit-text-stroke-width: 1px;  -webkit-text-stroke-color: black;">
+    <div id="animatedbg" style="height: 100vh;widows: 100vw;"></div>
+    <div id="textarea" style="position: fixed; top: 30%; left:25%;width: 75%;">
+        <div id="titleline" style="font-family: Arial, Helvetica, sans-serif; font-size: 7vw; color: goldenrod;">
+            vField
+        </div>
+        <div id="titleline2" style="font-family: Arial, Helvetica, sans-serif; font-size: 4vw; color: whitesmoke;">
+            curiosity as standard       
+    </div>
+    <script>
+    VANTA.WAVES({
+    el: "#animatedbg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x31010,
+    shininess: 144.00,
+    waveHeight: 35.00,
+    waveSpeed: 1.10,
+    zoom: 0.88
+    })
+    </script>
+  </body>
+</html>
